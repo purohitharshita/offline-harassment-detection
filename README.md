@@ -26,12 +26,12 @@ This system integrates both **audio** 🎙️ and **video** 🎥 models and work
 ---
 
 ## ⚙️ Installation & Setup  
-
-**1. Clone the Repository**  
+**1. Clone the Repository**
 ```bash
 git clone https://github.com/purohitharshita/offline-harassment-detection.git
 cd offline-harassment-detection
 
+```
 
 **2. Create Virtual Environment**
 ```bash
@@ -40,13 +40,18 @@ python -m venv myenv
 source myenv/bin/activate     # Linux/Mac
 myenv\Scripts\activate        # Windows
 
+```
+
 **3. Install Dependencies**
 ```bash
 pip install -r requirements.txt
-
+```
 **4. Run the Application**
 ```bash
 streamlit run ui.py
+```
+
+
 
 ## 📊 Datasets  
 
