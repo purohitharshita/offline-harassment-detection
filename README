@@ -1,0 +1,72 @@
+# Offline Harassment Detection  
+
+## 📌 Project Overview  
+This project implements an **AI-based Offline Harassment Detection System** that works without internet access. The system integrates both **audio** and **video** models to detect violent or harassment-related activities in real-time.  
+
+It leverages:  
+- 🎥 **Video-based violence detection** using the **Real-Life Violence Situations dataset (RLVS)**  
+- 🎙️ **Audio-based harassment detection** using the **RAVDESS Emotional Speech dataset**  
+- 🧠 Deep learning models built with **Keras/TensorFlow**  
+- 🖥️ A user-friendly **Streamlit interface** for offline use  
+
+---
+
+## 🚀 Features  
+- **Dual-Modality Detection** → Combines audio + video analysis for higher accuracy.  
+- **Offline Functionality** → Works without internet connectivity.  
+- **Streamlit UI** → Simple and interactive interface.  
+- **Modular Codebase** → Separated utilities, models, and UI for scalability.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Programming Language**: Python 3.x  
+- **Deep Learning Framework**: TensorFlow / Keras  
+- **Frontend**: Streamlit  
+- **Datasets**:  
+  - RLVS (Violence/Non-Violence video dataset)  
+  - RAVDESS (Emotional speech dataset for audio classification)  
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/purohitharshita/offline-harassment-detection.git
+cd offline-harassment-detection
+
+2. **Create Virtual Environment**
+```bash
+python -m venv myenv
+# Activate Virtual Environment
+source myenv/bin/activate     # Linux/Mac
+myenv\Scripts\activate        # Windows
+
+3. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+
+4. **Run the Application**
+```bash
+streamlit run ui.py
+
+## 📊 Datasets
+
+- **Video Dataset:** [Real-Life Violence Situations (RLVS)](https://www.kaggle.com/datasets/mohamedmustafa/real-life-violence-situations-dataset) — contains approximately 2,000 video clips, evenly split between violent and non-violent situations, collected from real-life scenarios :contentReference[oaicite:0]{index=0}.  
+- **Audio Dataset:** [RAVDESS Emotional Speech Audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio) — high-quality emotional speech recordings covering emotions like calm, happy, sad, angry, fearful, surprised, and disgusted at two intensity levels :contentReference[oaicite:2]{index=1}.
+
+⚠️ *Datasets are **not included** in this repository due to size. Please download them separately from the links provided and place them in the `data/` folder.*
+
+
+---
+
+## 👩‍💻 Collaborators
+- Harshita Purohit  
+- Harsha Rani C
+- Keerthana KB
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.
