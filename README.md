@@ -67,9 +67,9 @@ Please download separately and place them inside the `data/` folder.
 
 ## 👩‍💻 Collaborators  
 
-- **Harshita Purohit**  
-- **Harsha Rani C**
-- **Keerthana KB**
+- **Harshita Purohit(https://github.com/purohitharshita)**  
+- **Harsha Rani C(https://github.com/HarshaRani23)**
+- **Keerthana KB(https://github.com/Keerthana-kb)**
 
 ---
 
